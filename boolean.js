@@ -15,6 +15,11 @@ let isMyName = temp >= 32;
 
 // console.log(isMyName);
 
+let isFreezing = temp <= 32;
+
+// if (isFreezing) {
+//     console.log("it's freezing outside!")
+// }
 // challenge area
 
 // create age set to your age
@@ -23,10 +28,21 @@ let isMyName = temp >= 32;
 // Print is child value
 // print is senior value
 
-let age = 25;
+let age = 65;
 
 let _child = age <= 7;
 let _senior = age >= 65;
 
+
 console.log(_child);
 console.log(_senior);
+
+// challenge area using if (condition)
+
+if (age <= 7) {
+    console.log('child');
+}
+
+if (age >= 65) {
+    console.log('seniore');
+}
