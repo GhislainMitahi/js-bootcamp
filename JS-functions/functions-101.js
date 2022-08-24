@@ -4,7 +4,7 @@ let greatUser = function () {
     console.log('Welcome user!')
 }
 
-greatUser()
+greatUser() 
 greatUser()
 
 let square = function (num) {
